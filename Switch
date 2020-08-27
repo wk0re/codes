@@ -1,0 +1,18 @@
+switch (peticion) 
+            {
+                case "Afilado":
+                    Console.WriteLine("Este encantamiento sirve para que tu espada inflija mas daño");
+                    break;
+                case "Golpeo":
+                    Console.WriteLine("Este encantamiendo sirve para causar mas daño a mobs 'No muertos'");
+                    break;
+                    Console.WriteLine("Este encantamiento sirve para que tu espada tenga mas durabilidad");
+                    break;
+                case "Saqueo":
+                    Console.WriteLine("Este encantamiento sirve para que los mobs te den mas items");
+                    break;
+                default:
+                    Console.WriteLine("¡El encantamiento no se encuentra en la lista valida!");
+                    break;
+            }
+            
