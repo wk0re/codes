@@ -1,4 +1,8 @@
-switch (peticion) 
+string peticion = "";
+            Console.WriteLine("¿Que encantamiento desearia conocer? Afilado, Saqueo, Golpeo, Irrompibilidad"); 
+            peticion = Console.ReadLine();
+            
+            switch (peticion) 
             {
                 case "Afilado":
                     Console.WriteLine("Este encantamiento sirve para que tu espada inflija mas daño");
@@ -15,4 +19,3 @@ switch (peticion)
                     Console.WriteLine("¡El encantamiento no se encuentra en la lista valida!");
                     break;
             }
-            
